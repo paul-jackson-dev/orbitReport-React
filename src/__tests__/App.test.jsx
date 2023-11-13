@@ -2,7 +2,8 @@ import { render, screen } from '@testing-library/react';
 import App from '../App';
 import testData from './testData';
 import Table from '../components/Table';
-import { describe, test } from 'vitest';
+// import { describe, test } from 'vitest';
+import { describe, test } from 'react-app/jest';
 
 describe("Final App function should contain a BANNER with title", () => {
 
